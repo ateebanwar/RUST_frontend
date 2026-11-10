@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Flutter Web (Edge - Port 7357)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "args": [
+        "-d",
+        "edge",
+        "--web-port",
+        "7357"
+      ]
+    },
+    {
+      "name": "Flutter Web (Chrome - Port 7357)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "args": [
+        "-d",
+        "chrome",
+        "--web-port",
+        "7357"
+      ]
+    }
+  ]
+}
